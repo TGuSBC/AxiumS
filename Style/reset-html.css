@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Largura da barra */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Fundo da barra */
+::-webkit-scrollbar-track {
+  background: #111; /* ou transparent */
+}
+
+/* A "bolinha" que você arrasta */
+::-webkit-scrollbar-thumb {
+  background: #d3d0d0;
+  border-radius: 10px;
+}
+
+/* Efeito ao passar o mouse */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
